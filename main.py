@@ -17,7 +17,7 @@ class App:
 
         tk.Label(root, text="目标文件夹:").pack()
         tk.Entry(root, textvariable=self.dst_path, width=50).pack()
-        tk.Button(root, text="选择目标文件夹", command=self.dst_path).pack()
+        tk.Button(root, text="选择目标文件夹", command=self.select_dst).pack()
 
         tk.Button(root, text="移动文件", command=self.move_files).pack(pady=10)
 
