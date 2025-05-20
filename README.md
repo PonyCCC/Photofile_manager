@@ -14,3 +14,9 @@
 - ✅ 多线程操作，界面不卡顿
 
 ---
+Macos 打包 
+pyinstaller --windowed --name ARW_Manager --icon=assets/icon.icns main.py
+
+Window打包：
+pyinstaller --onefile --windowed --icon=icon.ico main.py
+
